@@ -1,0 +1,66 @@
+body{
+    background-image: url(https://media.istockphoto.com/id/490747664/es/foto/gray-perro-patr%C3%B3n-de-repetici%C3%B3n-de-fondo-de-azulejos.jpg?b=1&s=170667a&w=0&k=20&c=XrP9Ho0aHxP5kow2gE-Bm6upsHIntOug2P_ixqfzwmA=);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.contenedor{
+    background-image: url(https://media.istockphoto.com/id/490747664/es/foto/gray-perro-patr%C3%B3n-de-repetici%C3%B3n-de-fondo-de-azulejos.jpg?b=1&s=170667a&w=0&k=20&c=XrP9Ho0aHxP5kow2gE-Bm6upsHIntOug2P_ixqfzwmA=);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.encabezado{
+    background: black;;
+}
+img{
+    width: 50px;
+    border-radius: 50%;
+}
+.encabezado nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+.encabezado nav ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    padding: 12px 20px;
+    display: block;
+}
+a:hover{
+    background:rgb(44,44,44);
+}
+.encabezado nav ul li ul{
+    display: flex;
+    flex-direction: column;
+}
+.encabezado nav ul li ul{
+    position: absolute;
+    background: #008A93;
+}
+.encabezado nav ul li ul li{
+    width: 180px;
+    position: relative;
+}
+.encabezado nav ul li ul li ul{
+    top: 0;
+    left: 180px;
+    position: absolute;
+}
+.encabezado nav ul li ul{
+    display: none;
+}
+.encabezado nav ul li:hover>ul{
+    display: block;
+}

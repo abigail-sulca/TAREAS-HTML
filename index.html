@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina de adopcion de mascotas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="encabezado">
+        <nav>
+            <div><img src="https://previews.123rf.com/images/alexeyblogoodf/alexeyblogoodf1705/alexeyblogoodf170500115/78613210-l%C3%ADnea-fina-ilustraci%C3%B3n-vectorial-de-adoptar-una-bandera-de-mascotas-nuevo-propietario-granja-de.jpg" alt=""></div>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li>
+                    <a href="#">Servicios</a>
+                    <ul>
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                        <li>
+                            <a href="#">Opción 3</a>
+                            <ul>
+                                <li><a href="#">Opcióm 1</a></li>
+                                <li><a href="#">Opción 2</a></li>
+                                <li><a href="#">Opción 3</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+
+                <li><a href="#">Contacto</a></li>
+                <li>
+                    <a href="#">Acerca de</a>
+                    <ul>
+                        <li><a href="#">Opción 1</a></li>
+                        <li><a href="#">Opción 2</a></li>
+                        <li><a href="#">Opción 3</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Videos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <h2 style="text-align: center;">¿Porque adoptar a una mascota?</h2>
+    <center>
+    <p>
+        Si nos paramos a pensar, tener una mascota no es ir a la tienda y comprar el peluche que      veamos más bonito. Nuestra futura mascota es un ser vivo del que tenemos que cuidar.
+
+        Millones de animales no tienen un hogar y todos los días esperan a esa familia mágica que los quiera bien. Tener una mascota en casa es una gran responsabilidad, no solo se trata de alimentarla, asearla y sacarla a pasear, además es fundamental entrenarla y darle mucho amor.
+        
+        Si estás considerando sumar un miembro a tu familia, mejor adoptarla. Al hacerlo sentirás una inmensa satisfacción, además lo ayudarás a tener una mejor vida.</p>
+
+    </center>
+
+    <h2>LOS ENGREIDOS</h2>
+        <table style="border: 4px solid brown ;">
+            <!-- TH es paa e encabezado -->
+            <!-- TR e para agregar filas -->
+            <!-- TD es para agregar celdas o columnas -->
+            <tr style="background-color:brown; border: 9px;">
+                <th>NOMBRE</th>
+                <th>FOTO</th>
+            </tr>
+            <tr>
+                <td style="text-align:center; color:black ;">Lucas (Edad: 2 años)</td>
+                <td> <img src="https://www.bunko.pet/__export/1647461409090/sites/debate/img/2021/05/17/san_bernardo_crop1621284543740.jpeg_1902800913.jpeg" alt=""></td>
+            </tr>
+            <tr>
+                <td>Mateo (Edad: 3 meses)</td>
+                <td> <img src="https://media.traveler.es/photos/613760adcb06ad0f20e11980/master/w_1600%2Cc_limit/202931.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>Lulu (Edad: 1 año)</td>
+                <td> <img src="https://perrosycachorros.net/wp-content/uploads/2012/07/doberman4.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td>Maggy (Edad: 9 meses)</td>
+                <td> <img src="https://upload.wikimedia.org/wikipedia/commons/8/8a/Golden_Retriever_9-year_old.jpg" alt=""></tr>
+            </tr>
+        </table>
+
+
+        <h2>Videos</h2>
+    <h4>¿Porque deberia adoptar una mascota?</h4>
+    <iframe width="560" height="315" 
+    src="https://www.youtube.com/embed/DGXu8kvRHA8" title="YouTube video player" frameborder="7" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>ADOPTA A TU FUTURO ENGREIDO</h1>
+
+    <form actio="ejemplo.php">
+        <p>
+            NOMBRE: <input type="text" name="nombre" id="" size="40"
+            placeholder="escriba su nombre completo">
+        </p>
+        <!-- Aparezca la fecha -->
+        <p> 
+            AÑO DE NACIMIENTO: <input type="date" name="feha de nacimiento" id="" size="40">
+        </p> 
+        <!-- Elegir solo a opcion -->
+        <p>
+            SEXO: 
+            <input type="radio" name="sexo" id="" value="h" required > HOMBRE
+            <input type="radio" name="sexo" id="" value="m" requerid >MUJER
+            <input type="radio" name="sexo" id="" value="n" requerid > Prefiero no decirlo
+        </p>
+        <!-- Elegir varias opciones -->
+        <p>
+            ¿CUANTAS VECES AL DIA PASEARIAs A tU ENGREIDO?: 
+                        <input type="checkbox" name="bailar"  id="">1 Vez
+                        <input type="checkbox" name="chatear"  id="">3 veces
+                        <input type="checkbox" name="dormir"  id="">2 veces
+        </p>
+        <!-- Escribir solo numeros -->
+        <p>
+            Edad: <input type="number" name="numero" id="">
+            <!-- step any admite decimales -->
+        </p>
+        <!-- Elija un color -->
+        
+        <!-- Para lenar solo email y contraseña -->
+        <p>
+            USUARIO: <input type="email" name="" id="">
+            CONTRASEÑA: <input type="password" name="" id="" maxlength="6">
+        </p>
+        <!-- Submit sirve para enviar -->
+        <button type="submit">
+            <img src="https://cdn-icons-png.flaticon.com/512/263/263100.png" alt="" width="25" height="25" 
+            style="vertical-align:middle ;">ENVIAR
+        </button>
+
+        <p>
+            <input type="reset" value="BORRAR">
+        </p>
+    </form>
+    
+</body>
+</html>
